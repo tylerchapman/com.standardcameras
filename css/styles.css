@@ -4,31 +4,25 @@
 }
 
 /* Home */
-.home {
-  width: 100%;
-  background-image: url("../images/S02_169.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-/* Specs */
-
-/* Options */
-
-/* Gallery */
-#gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-#gallery img {
-  width: 100%;
+#home {
+  /* height: calc(100vh - 123.52px); */
 }
 
 /* About */
-#about-thumbnails {
+#about-drew-img {
   /* TODO: Circle thumbnails */
 }
 
-/* Testimonials */
+/* Footer */
+.footer-links ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-links li a {
+  width: 100%;
+}
+
+.footer-contact ul li {
+  list-style-type: none;
+}

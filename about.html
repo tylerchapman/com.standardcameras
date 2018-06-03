@@ -14,7 +14,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/styles.css">
 
-  <title>Home | Standard Cameras</title>
+  <title>About | Standard Cameras</title>
 </head>
 <body>
 
@@ -28,13 +28,13 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link page-scroll active">Home</a>
+            <a href="index.html" class="nav-link page-scroll">Home</a>
           </li>
           <li class="nav-item">
             <a href="standard4x5.html" class="nav-link page-scroll">Standard 4x5</a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link page-scroll">About</a>
+            <a href="about.html" class="nav-link page-scroll active">About</a>
           </li>
           <li class="nav-item">
             <a href="contact.html" class="nav-link page-scroll">Contact</a>
@@ -47,11 +47,69 @@
     </div>
   </nav>
 
-  <!-- Home Video Section Start -->
-  <!-- TODO: Add video to homepage -->
-  <main id="home">
+  <!-- About Main Section Start -->
+  <main id="about">
     <div class="container">
-      <h1>Welcome To Standard Cameras</h1>
+
+      <h1><span class="border-bottom">About</span></h1>
+
+      <section id="who-are-we" class="mt-5">
+        <h3>Who is Standard Cameras?</h3>
+        <div class="row mt-3">
+          <div class="col-md-4">
+            <img src="images/drew.jpg" class="img-fluid rounded" alt="Drew Nikonowicz" id="about-drew-img">
+            <h4 class="mt-2">Drew Nikonowicz</h4>
+            <div class="about-email">
+              <i class="far fa-envelope"></i>
+              <a href="mailto:drew@nikonowicz.com" class="text-dark">drew@nikonowicz.com</a>
+            </div>
+            <div class="about-instagram">
+              <i class="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/drew_nikonowicz" class="text-dark">@drew_nikonowicz</a>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <p>
+              My name is Drew Nikonowicz, and I have been a photographer for around 10 years now. I was first
+              introduced to large format photography in 2012 in college, and since then I have continued to shoot
+              large format consistently. I truly believe that shooting with a large format camera changes the way
+              we see as image-makers.
+               <br>
+              <br>
+              Over the past 5 years or so I have been pursuing my artistic career very seriously, with my first
+               significant milestones occurring in 2015 - earning the Aperture Portfolio Prize, and the Lenscratch
+               Student Prize. In both instances, the portfolios submitted were almost exclusively photographs made
+               with a 4x5 view camera. With these experiences and the help of everyone who has assisted me in
+               developing and testing, I believe we have created a simple and lightweight 4x5 that focuses on the
+               features photographers need most.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="what-is-the-standard" class="mt-5">
+        <h3>What is the Standard 4x5?</h3>
+        <div class="row mt-3">
+          <div class="col-md-4">
+            <figure class="figure">
+              <img src="images/first-prototype.jpg" class="figure-img img-fluid rounded" alt="First Prototype Camera">
+              <figcaption class="figure-caption text-center">The first working prototype from 2015</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-8">
+            <p>
+                In 2014 I bought my first 3d printer. Almost immediately I began using it to exclusively try and create
+                a 3d printed 4x5 view camera. The constraints I gave myself were simple - it had to be mostly 3d
+                printed components, no support material required for the prints, and almost everything else had to
+                be available at my local hardware store or easy to acquire. Since then the camera has gone from
+                being a side project, to something I want to share with everyone. I have chosen to keep the price
+                point low to make the camera very accessible. This is also why the design will be open source after
+                we start shipping cameras (more info in the <a href="faq.html">FAQ</a>). I hope to help bring more people to the medium
+                who would otherwise be unable to experience it!
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
 
@@ -168,7 +226,6 @@
 
     </div>
   </footer>
-
 
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.js"></script>
